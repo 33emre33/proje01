@@ -1,0 +1,1228 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+html{
+    font-size: 10px;
+}
+body{
+
+background-image: url("../img/arka.jpg");
+background-size: cover;
+
+
+}
+/* Header-top Start*/
+.header-top{
+    border-bottom:1px solid darkgray;
+width:100%;
+height:30px;
+background-color: rgba(0, 0, 0, 0.9);
+color: darkgray;
+position: absolute;
+}
+.header-top i{
+    font-size: 1.5rem;
+    display: inline-block;
+}
+.phone h4{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:1.2rem;
+    display: inline-block;
+    
+}
+.phone h4 a{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:1.2rem;
+    display: inline-block;
+    text-decoration: none;
+    color: darkgray;
+}
+.phone{
+     position: absolute;
+     top:5px;
+     right:12%;
+}
+/* Header-top Stop*/
+
+
+
+/* Header-botom Start*/
+.header-bottom{
+width:100%;
+height: 100px;
+background-color: rgba(0, 0, 0, 0.9);
+
+}
+.logo img{
+    width: 500px;
+    position: absolute;
+    top:40px;
+    left:4%;
+}
+.nav ul li{
+    box-sizing: border-box;
+    display: inline-block;
+
+}
+.nav ul li a{
+text-decoration: none;
+color: darkgray;
+background-color: rgba(0, 0, 0, 0.7);
+padding: 25px 28px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size:1.5rem;
+font-style: italic;
+
+
+}
+.nav ul li a:hover{
+
+ background-color: darkgray;
+ color: black   ;
+ 
+    }
+
+.nav{
+    position: absolute;
+    top:57px;
+    right: 11%;
+    
+}
+
+/* Header-bottom Stop*/
+
+/*Footer start*/
+.footer{
+    background-color: rgba(0, 0, 0, 1);
+    width: 100%;
+    height:200px;
+    position: absolute;
+    bottom: -280px;
+
+}
+.container{
+
+    width:80%;
+    height: 90%;
+    margin: 10px auto;
+}
+.footer-box{
+    list-style: none;
+    width: 250px;
+    height: 130px;
+
+    float: left;
+   margin-right: 10px;
+   margin-left:23px;
+   margin-top:10px;
+   color: darkgray;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-style: italic;
+   margin-bottom: 19px;
+   border-left: 1px solid darkgray;
+}
+.footer-box ul{
+    list-style-type: none;
+    margin-top: 15px;
+    margin-left: 18%;
+}
+.footer-box ul li h4{
+    margin-bottom: 7px;
+
+    display: inline-block;
+    font-size: 1.6rem;
+    
+}
+.footer-box ul li h4:hover{
+  border-bottom: 1px solid darkgray;
+  transition:  3s;
+    
+}
+.footer-box ul li span a{
+    font-size: 1.3rem;
+    text-decoration: none;
+    color: darkgray;
+    display: inline-block;
+  
+}
+.footer-box ul li span a:hover{
+    color:white;
+    border-bottom: 1px solid darkgray;
+
+  
+}
+
+.container-2{
+    border-bottom: 1px solid darkgray;
+
+    width: 80%;
+    height: 100%;
+
+    margin: auto;
+    margin-top: 10px;
+}
+.fotter-word{
+    color: darkgray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.2rem;
+    margin-left: 37%;
+
+    
+}
+/*Footer stop*/
+
+
+/*main start*/
+.banner-word1{
+   position: absolute;
+   top: 30%;
+   left: 10%;
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 5rem;
+   color: white;
+
+text-shadow: 1px 1px 10px black;
+
+   font-style: italic;
+    text-transform: capitalize;
+}
+.banner-word2{
+    position: absolute;
+    top: 41%;
+    left: 10%;
+     font-family: sans-serif;
+     font-style: italic;
+     font-size: 2rem;
+    color: white;
+    width: 84%;
+    font-weight: 200;
+    line-height: 28px;
+ 
+ text-shadow: 1px 1px 10px black;
+ 
+ 
+     text-transform: capitalize;
+ }
+ .button-group{
+    border-radius: 5px;
+    width: 80%;
+    height: 275px;
+    background-color: rgba(0, 0, 0, 0.7);;
+    margin: auto;
+    position: relative;
+    top: 300px;
+    padding-top: 5px;
+    
+    box-sizing: border-box;
+ }
+ .button-group-2{
+    width:95%;
+    height: 240px;
+
+    margin:  auto;
+    margin-top: 20px;
+ }
+ .main-box{ 
+    border: 1px solid darkgray;
+   border-radius: 5px;
+    box-sizing: border-box;
+    width: 310px;
+    height: 220px;
+    background-color:black;
+    float: left;
+    margin-left: 23px;
+    
+
+   
+    color: darkgray;
+    
+    
+ }
+ .main-box h2{
+    font-family: 'Archivo Black', sans-serif;
+    font-size:2.5rem;
+    text-transform: capitalize;
+    font-style: italic;
+    text-align: center;
+margin-bottom: 10px;
+margin-top: 10px;
+ }
+ .main-box span{
+    font-family: sans-serif;
+    font-size:1.5rem;
+    text-transform: capitalize;
+    font-style: italic;
+    text-align: left;
+    display: inline-block;
+    width: 85%;
+    margin-left: 8%;
+    text-align: left;
+    letter-spacing: 1px;
+
+
+ }
+ .main-button a{
+    font-family: 'Archivo Black', sans-serif;
+    font-style: italic;
+    font-size:2.2rem;
+    background-color:rebeccapurple ;
+    text-decoration: none;
+    color: darkgray;
+    padding: 10px 80px;
+    position: absolute;
+    bottom: 47px;
+    margin-left: 33px;
+ box-sizing: border-box;
+ }
+ .main-button a:hover{
+color: black;
+background-color: darkgray;
+
+ }
+ .main-buttonn {
+    font-family: 'Archivo Black', sans-serif;
+    font-style: italic;
+    font-size:2.2rem;
+    background-color:rebeccapurple ;
+    text-decoration: none;
+    color: darkgray;
+    padding: 10px 80px;
+    position: absolute;
+    bottom: 62px;
+    margin-left: 33px;
+ box-sizing: border-box;
+ 
+ }
+ .main-buttonn:hover{
+color: black;
+background-color: darkgray;
+
+ }
+ 
+#box3{
+    border-right: 1px solid darkgray;
+}
+
+
+/*Footer stop
+*/
+.form{
+    background-color:darkgray;
+    border-radius: 5px;
+    height: 30px;
+    color: black;
+    border: 0;
+    margin-bottom: 30px;
+    margin-left: 30px;
+}
+.form:active{
+    border: 0;
+}
+.form2{
+    text-align: center;
+    position: relative;
+    top: -18px;
+    font-family: sans-serif;
+    font-style: italic;
+    font-size: 1.8rem;
+}
+.table{
+    margin-left: 80px;
+    margin-top: 35px;
+}
+.textarea{
+    width: 330px;
+    height: 120px;
+    background-color: darkgray;
+    border-radius: 5px;
+}
+.table2{
+    margin-left: 500px;
+    margin-top: -180px;
+}
+
+
+
+
+
+
+
+
+
+
+
+ @media only screen and (max-width: 767px){
+  *{
+    padding:0px;
+    margin:0px;
+}
+html{
+    font-size:8px;
+}
+body{
+
+background-image: url("../img/arka.jpg");
+background-size: cover;
+
+
+}
+.header-top{
+    border-bottom:1px solid darkgray;
+width:100%;
+height:30px;
+background-color: brown;
+/*background-color: rgba(0, 0, 0, 0.9);*/
+
+color: darkgray;
+position: absolute;
+}
+.header-top i{
+    font-size: 1.5rem;
+    display: inline-block;
+}
+.phone h4{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:1.2rem;
+    display: inline-block;
+    
+}
+.phone h4 a{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:1.2rem;
+    display: inline-block;
+    text-decoration: none;
+    color: darkgray;
+}
+.phone{
+     position: absolute;
+     top:7px;
+     right:12%;
+}
+.header-bottom{
+width:100%;
+height: 100px;
+background-color: rgba(0, 0, 0, 0.9);
+
+}
+.logo img{
+    width: 300px;
+    position: absolute;
+    top:50px;
+    left:2%;
+}
+.nav ul li{
+    box-sizing: border-box;
+    display: inline-block;
+
+}
+.nav ul li a{
+text-decoration: none;
+color: darkgray;
+background-color: rgba(0, 0, 0, 0.7);
+padding: 25px 28px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size:1.5rem;
+font-style: italic;
+
+}
+.nav ul li a:hover{
+
+ background-color: darkgray;
+ color: black   ;
+ 
+    }
+
+.nav{
+    position: absolute;
+    top:57px;
+    right: 0%;
+    
+}
+
+
+
+.footer{
+    background-color: rgba(0, 0, 0, 1);
+    width: 100%;
+    height:200px;
+    position: absolute;
+    bottom: -880px;
+
+}
+.container{
+
+    width:80%;
+    height: 90%;
+    margin: 10px auto;
+}
+.footer-box{
+    list-style: none;
+    width: 140px;
+    height: 130px;
+    margin-right: 1px;
+    margin-left:0px;
+   margin-top:10px;
+   margin-bottom: 19px;
+
+   float: left;
+   color: darkgray;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-style: italic;
+
+
+   border-left: 1px solid darkgray;
+}
+.footer-box ul{
+    list-style-type: none;
+    margin-top: 15px;
+    margin-left: 18%;
+}
+.footer-box ul li h4{
+    margin-bottom: 7px;
+
+    display: inline-block;
+    font-size: 1.6rem;
+    
+}
+.footer-box ul li h4:hover{
+  border-bottom: 1px solid darkgray;
+  transition:  3s;
+    
+}
+.footer-box ul li span a{
+    font-size: 1.3rem;
+    text-decoration: none;
+    color: darkgray;
+    display: inline-block;
+  
+}
+.footer-box ul li span a:hover{
+    color:white;
+    border-bottom: 1px solid darkgray;
+
+  
+}
+
+.container-2{
+    border-bottom: 1px solid darkgray;
+
+    width: 80%;
+    height: 100%;
+
+    margin: auto;
+    margin-top: 10px;
+}
+.fotter-word{
+    color: darkgray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.2rem;
+    margin-left: 37%;
+
+    
+}
+.banner-word1{
+   position: absolute;
+   top: 30%;
+   left: 10%;
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 5rem;
+   color: white;
+
+text-shadow: 1px 1px 10px black;
+
+   font-style: italic;
+    text-transform: capitalize;
+}
+.banner-word2{
+    position: absolute;
+    top: 41%;
+    left: 10%;
+     font-family: sans-serif;
+     font-size: 2rem;
+    color: white;
+    width: 84%;
+    font-weight: 200;
+    line-height: 28px;
+ 
+ text-shadow: 1px 1px 10px black;
+ 
+    font-style: italic;
+     text-transform: capitalize;
+ }
+ .button-group{
+    border-radius: 5px;
+    width: 80%;
+    height: 775px;
+    background-color: rgba(0, 0, 0, 0.7);;
+    margin: auto;
+    position: relative;
+    top: 300px;
+    padding-top: 5px;
+    
+    box-sizing: border-box;
+ }
+ .button-group-2{
+    width:95%;
+    height: 240px;
+
+    margin:  auto;
+    margin-top: 20px;
+ }
+ .main-box{ 
+    border: 1px solid darkgray;
+   border-radius: 5px;
+    box-sizing: border-box;
+    width: 310px;
+    height: 220px;
+    background-color:black;
+    float: left;
+    margin-left: 120px;
+    margin-bottom: 20px;
+    
+
+   
+    color: darkgray;
+    
+    
+ }
+ .main-box h2{
+    font-family: 'Archivo Black', sans-serif;
+    font-size:2.5rem;
+    text-transform: capitalize;
+    font-style: italic;
+    text-align: center;
+margin-bottom: 10px;
+margin-top: 10px;
+ }
+ .main-box span{
+    font-family: sans-serif;
+    font-size:1.5rem;
+    text-transform: capitalize;
+    font-style: italic;
+    text-align: left;
+    display: inline-block;
+    width: 85%;
+    margin-left: 8%;
+    text-align: left;
+    letter-spacing: 1px;
+
+
+ }
+ .main-button a{
+    font-family: 'Archivo Black', sans-serif;
+    font-style: italic;
+    font-size:2.2rem;
+    background-color:rebeccapurple ;
+    text-decoration: none;
+    color: darkgray;
+    padding: 10px 80px;
+    position: relative;
+    top:50px;
+    margin-left: 42px;
+ box-sizing: border-box;
+ }
+ .main-button a:hover{
+color: black;
+background-color: darkgray;
+
+ }
+ 
+ #box3{
+    border-right:none;
+}
+
+
+
+
+
+
+  
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ @media only screen and (min-width: 767px) and(max-width:991px){
+ 
+
+    *{
+        padding:0px;
+        margin:0px;
+    }
+    html{
+        font-size: 10px;
+    }
+    body{
+    
+    background-image: url("../img/arka.jpg");
+    background-size: cover;
+    
+    
+    }
+    .header-top{
+        border-bottom:1px solid darkgray;
+    width:100%;
+    height:30px;
+    /*background-color: rgba(0, 0, 0, 0.9);*/
+    background-color: aqua;
+    color: darkgray;
+    position: absolute;
+    }
+    .header-top i{
+        font-size: 1.5rem;
+        display: inline-block;
+    }
+    .phone h4{
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        font-size:1.2rem;
+        display: inline-block;
+        
+    }
+    .phone h4 a{
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        font-size:1.2rem;
+        display: inline-block;
+        text-decoration: none;
+        color: darkgray;
+    }
+    .phone{
+         position: absolute;
+         top:5px;
+         right:12%;
+    }
+    .header-bottom{
+    width:100%;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.9);
+    
+    }
+    .logo img{
+        width: 500px;
+        position: absolute;
+        top:40px;
+        left:4%;
+    }
+    .nav ul li{
+        box-sizing: border-box;
+        display: inline-block;
+    
+    }
+    .nav ul li a{
+    text-decoration: none;
+    color: darkgray;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 25px 28px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:1.5rem;
+    font-style: italic;
+    
+    }
+    .nav ul li a:hover{
+    
+     background-color: darkgray;
+     color: black   ;
+     
+        }
+    
+    .nav{
+        position: absolute;
+        top:57px;
+        right: 11%;
+        
+    }
+    
+    
+    
+    .footer{
+        background-color: rgba(0, 0, 0, 1);
+        width: 100%;
+        height:200px;
+        position: absolute;
+        bottom: -280px;
+    
+    }
+    .container{
+    
+        width:80%;
+        height: 90%;
+        margin: 10px auto;
+    }
+    .footer-box{
+        list-style: none;
+        width: 250px;
+        height: 130px;
+    
+        float: left;
+       margin-right: 10px;
+       margin-left:23px;
+       margin-top:10px;
+       color: darkgray;
+       font-family: Verdana, Geneva, Tahoma, sans-serif;
+       font-style: italic;
+       margin-bottom: 19px;
+       border-left: 1px solid darkgray;
+    }
+    .footer-box ul{
+        list-style-type: none;
+        margin-top: 15px;
+        margin-left: 18%;
+    }
+    .footer-box ul li h4{
+        margin-bottom: 7px;
+    
+        display: inline-block;
+        font-size: 1.6rem;
+        
+    }
+    .footer-box ul li h4:hover{
+      border-bottom: 1px solid darkgray;
+      transition:  3s;
+        
+    }
+    .footer-box ul li span a{
+        font-size: 1.3rem;
+        text-decoration: none;
+        color: darkgray;
+        display: inline-block;
+      
+    }
+    .footer-box ul li span a:hover{
+        color:white;
+        border-bottom: 1px solid darkgray;
+    
+      
+    }
+    
+    .container-2{
+        border-bottom: 1px solid darkgray;
+    
+        width: 80%;
+        height: 100%;
+    
+        margin: auto;
+        margin-top: 10px;
+    }
+    .fotter-word{
+        color: darkgray;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 1.2rem;
+        margin-left: 37%;
+    
+        
+    }
+    .banner-word1{
+       position: absolute;
+       top: 30%;
+       left: 10%;
+        font-family: 'Archivo Black', sans-serif;
+        font-size: 5rem;
+       color: white;
+    
+    text-shadow: 1px 1px 10px black;
+    
+       font-style: italic;
+        text-transform: capitalize;
+    }
+    .banner-word2{
+        position: absolute;
+        top: 41%;
+        left: 10%;
+         font-family: sans-serif;
+         font-size: 2rem;
+        color: white;
+        width: 84%;
+        font-weight: 200;
+        line-height: 28px;
+     
+     text-shadow: 1px 1px 10px black;
+     
+        font-style: italic;
+         text-transform: capitalize;
+     }
+     .button-group{
+        border-radius: 5px;
+        width: 80%;
+        height: 275px;
+        background-color: rgba(0, 0, 0, 0.7);;
+        margin: auto;
+        position: relative;
+        top: 300px;
+        padding-top: 5px;
+        
+        box-sizing: border-box;
+     }
+     .button-group-2{
+        width:95%;
+        height: 240px;
+    
+        margin:  auto;
+        margin-top: 20px;
+     }
+     .main-box{ 
+        border: 1px solid darkgray;
+       border-radius: 5px;
+        box-sizing: border-box;
+        width: 310px;
+        height: 220px;
+        background-color:black;
+        float: left;
+        margin-left: 23px;
+        
+    
+       
+        color: darkgray;
+        
+        
+     }
+     .main-box h2{
+        font-family: 'Archivo Black', sans-serif;
+        font-size:2.5rem;
+        text-transform: capitalize;
+        font-style: italic;
+        text-align: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+     }
+     .main-box span{
+        font-family: sans-serif;
+        font-size:1.5rem;
+        text-transform: capitalize;
+        font-style: italic;
+        text-align: left;
+        display: inline-block;
+        width: 85%;
+        margin-left: 8%;
+        text-align: left;
+        letter-spacing: 1px;
+    
+    
+     }
+     .main-button a{
+        font-family: 'Archivo Black', sans-serif;
+        font-style: italic;
+        font-size:2.2rem;
+        background-color:rebeccapurple ;
+        text-decoration: none;
+        color: darkgray;
+        padding: 10px 80px;
+        position: absolute;
+        bottom: 47px;
+        margin-left: 33px;
+     box-sizing: border-box;
+     }
+     .main-button a:hover{
+    color: black;
+    background-color: darkgray;
+    
+     }
+     
+
+
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ @media only screen and (min-width: 992px) and (max-width:1200px){
+ 
+
+    *{
+        padding:0px;
+        margin:0px;
+    }
+    html{
+        font-size: 10px;
+    }
+    body{
+    
+    background-image: url("../img/arka.jpg");
+    background-size: cover;
+    
+    
+    }
+    .header-top{
+        border-bottom:1px solid darkgray;
+    width:100%;
+    height:30px;
+    /*background-color: rgba(0, 0, 0, 0.9);*/
+    background-color:goldenrod;
+    color: darkgray;
+    position: absolute;
+    }
+    .header-top i{
+        font-size: 1.5rem;
+        display: inline-block;
+    }
+    .phone h4{
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        font-size:1.2rem;
+        display: inline-block;
+        
+    }
+    .phone h4 a{
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        font-size:1.2rem;
+        display: inline-block;
+        text-decoration: none;
+        color: darkgray;
+    }
+    .phone{
+         position: absolute;
+         top:5px;
+         right:12%;
+    }
+    .header-bottom{
+    width:100%;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.9);
+    
+    }
+    .logo img{
+        width: 500px;
+        position: absolute;
+        top:40px;
+        left:4%;
+    }
+    .nav ul li{
+        box-sizing: border-box;
+        display: inline-block;
+    
+    }
+    .nav ul li a{
+    text-decoration: none;
+    color: darkgray;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 25px 28px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:1.5rem;
+    font-style: italic;
+    
+    }
+    .nav ul li a:hover{
+    
+     background-color: darkgray;
+     color: black   ;
+     
+        }
+    
+    .nav{
+        position: absolute;
+        top:57px;
+        right: 11%;
+        
+    }
+    
+    
+    
+    .footer{
+        background-color: rgba(0, 0, 0, 1);
+        width: 100%;
+        height:200px;
+        position: absolute;
+        bottom: -280px;
+    
+    }
+    .container{
+    
+        width:80%;
+        height: 90%;
+        margin: 10px auto;
+    }
+    .footer-box{
+        list-style: none;
+        width: 250px;
+        height: 130px;
+    
+        float: left;
+       margin-right: 10px;
+       margin-left:23px;
+       margin-top:10px;
+       color: darkgray;
+       font-family: Verdana, Geneva, Tahoma, sans-serif;
+       font-style: italic;
+       margin-bottom: 19px;
+       border-left: 1px solid darkgray;
+    }
+    .footer-box ul{
+        list-style-type: none;
+        margin-top: 15px;
+        margin-left: 18%;
+    }
+    .footer-box ul li h4{
+        margin-bottom: 7px;
+    
+        display: inline-block;
+        font-size: 1.6rem;
+        
+    }
+    .footer-box ul li h4:hover{
+      border-bottom: 1px solid darkgray;
+      transition:  3s;
+        
+    }
+    .footer-box ul li span a{
+        font-size: 1.3rem;
+        text-decoration: none;
+        color: darkgray;
+        display: inline-block;
+      
+    }
+    .footer-box ul li span a:hover{
+        color:white;
+        border-bottom: 1px solid darkgray;
+    
+      
+    }
+    
+    .container-2{
+        border-bottom: 1px solid darkgray;
+    
+        width: 80%;
+        height: 100%;
+    
+        margin: auto;
+        margin-top: 10px;
+    }
+    .fotter-word{
+        color: darkgray;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 1.2rem;
+        margin-left: 37%;
+    
+        
+    }
+    .banner-word1{
+       position: absolute;
+       top: 30%;
+       left: 10%;
+        font-family: 'Archivo Black', sans-serif;
+        font-size: 5rem;
+       color: white;
+    
+    text-shadow: 1px 1px 10px black;
+    
+       font-style: italic;
+        text-transform: capitalize;
+    }
+    .banner-word2{
+        position: absolute;
+        top: 41%;
+        left: 10%;
+         font-family: sans-serif;
+         font-size: 2rem;
+        color: white;
+        width: 84%;
+        font-weight: 200;
+        line-height: 28px;
+     
+     text-shadow: 1px 1px 10px black;
+     
+        font-style: italic;
+         text-transform: capitalize;
+     }
+     .button-group{
+        border-radius: 5px;
+        width: 80%;
+        height: 275px;
+        background-color: rgba(0, 0, 0, 0.7);;
+        margin: auto;
+        position: relative;
+        top: 300px;
+        padding-top: 5px;
+        
+        box-sizing: border-box;
+     }
+     .button-group-2{
+        width:95%;
+        height: 240px;
+    
+        margin:  auto;
+        margin-top: 20px;
+     }
+     .main-box{ 
+        border: 1px solid darkgray;
+       border-radius: 5px;
+        box-sizing: border-box;
+        width: 310px;
+        height: 220px;
+        background-color:black;
+        float: left;
+        margin-left: 23px;
+        
+    
+       
+        color: darkgray;
+        
+        
+     }
+     .main-box h2{
+        font-family: 'Archivo Black', sans-serif;
+        font-size:2.5rem;
+        text-transform: capitalize;
+        font-style: italic;
+        text-align: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+     }
+     .main-box span{
+        font-family: sans-serif;
+        font-size:1.5rem;
+        text-transform: capitalize;
+        font-style: italic;
+        text-align: left;
+        display: inline-block;
+        width: 85%;
+        margin-left: 8%;
+        text-align: left;
+        letter-spacing: 1px;
+    
+    
+     }
+     .main-button a{
+        font-family: 'Archivo Black', sans-serif;
+        font-style: italic;
+        font-size:2.2rem;
+        background-color:rebeccapurple ;
+        text-decoration: none;
+        color: darkgray;
+        padding: 10px 80px;
+        position: absolute;
+        bottom: 47px;
+        margin-left: 33px;
+     box-sizing: border-box;
+     }
+     .main-button a:hover{
+    color: black;
+    background-color: darkgray;
+    
+     }
+     
+
+
+ }
